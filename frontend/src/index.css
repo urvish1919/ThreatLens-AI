@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #0d1117;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 48px;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}

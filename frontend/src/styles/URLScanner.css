@@ -1,0 +1,48 @@
+.scanner-page{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:#0f172a;
+}
+
+.scanner-container{
+    width:700px;
+    background:#1e293b;
+    padding:40px;
+    border-radius:15px;
+    color:white;
+    text-align:center;
+}
+
+.url-input{
+    width:100%;
+    padding:15px;
+    border-radius:8px;
+    border:none;
+    margin-top:25px;
+    margin-bottom:25px;
+    font-size:16px;
+}
+
+.analyze-btn{
+    background:#2563eb;
+    color:white;
+    padding:14px 25px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.result-box{
+    margin-top:35px;
+    text-align:left;
+    background:#334155;
+    padding:20px;
+    border-radius:10px;
+}
+
+.result-box ul{
+    padding-left:20px;
+}

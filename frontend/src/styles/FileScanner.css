@@ -1,0 +1,98 @@
+.scanner-page{
+    min-height:100vh;
+    background:#0d1117;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    padding:40px;
+}
+
+.scanner-container{
+    width:750px;
+    background:#161b22;
+    border-radius:20px;
+    padding:50px;
+}
+
+.scanner-container h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.scanner-container>p{
+    text-align:center;
+    color:#9ca3af;
+}
+
+.upload-box{
+    margin-top:35px;
+    border:2px dashed #3b82f6;
+    border-radius:15px;
+    padding:50px;
+    text-align:center;
+}
+
+.upload-btn{
+    display:inline-block;
+    margin-top:20px;
+    background:#2563eb;
+    padding:12px 30px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.file-info{
+    margin-top:30px;
+    background:#0d1117;
+    padding:20px;
+    border-radius:10px;
+}
+
+.file-info p{
+    margin-top:10px;
+}
+
+.analyze-btn{
+    margin-top:30px;
+    width:100%;
+    padding:16px;
+    border:none;
+    background:#10b981;
+    color:white;
+    font-size:18px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.loading-box{
+    margin-top:30px;
+    text-align:center;
+    font-size:22px;
+}
+
+.result-box{
+    margin-top:30px;
+    background:#0d1117;
+    border:1px solid #30363d;
+    border-radius:12px;
+    padding:25px;
+}
+
+.result-box h3,
+.result-box h4{
+    margin-top:15px;
+}
+
+.result-box ul{
+    margin-top:10px;
+    margin-left:20px;
+}
+
+.result-box li{
+    margin-top:8px;
+}
+
+.result-box p{
+    margin-top:10px;
+}
