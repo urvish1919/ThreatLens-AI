@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { API_URL } from "../config/api";
 import "../styles/Dashboard.css";
 
 function Dashboard() {
@@ -19,7 +20,7 @@ function Dashboard() {
 
         try {
 
-            const response = await fetch("http://127.0.0.1:8000/dashboard");
+            const response = await fetch(`${API_URL}/dashboard`);
 
             const data = await response.json();
 
