@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { API_URL } from "../config/api";
 import "../styles/FileScanner.css";
 
 function FileScanner() {
@@ -23,7 +24,7 @@ function FileScanner() {
         formData.append("file", selectedFile);
 
         try {
-            const response = await fetch("http://127.0.0.1:8000/scan-file", {
+            const response = await fetch(`${API_URL}/scan-file`, {
                 method: "POST",
                 body: formData,
             });

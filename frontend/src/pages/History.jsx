@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { API_URL } from "../config/api";
 import "../styles/History.css";
 
 function History() {
@@ -12,7 +13,7 @@ function History() {
     const fetchHistory = async () => {
         try {
 
-            const response = await fetch("http://127.0.0.1:8000/history");
+            const response = await fetch(`${API_URL}/history`);
 
             const data = await response.json();
 

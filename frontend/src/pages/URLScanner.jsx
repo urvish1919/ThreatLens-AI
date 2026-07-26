@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { API_URL } from "../config/api";
 import "../styles/URLScanner.css";
 
 function URLScanner() {
@@ -16,7 +17,7 @@ function URLScanner() {
     setResult(null);
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/scan-url", {
+      const response = await fetch(`${API_URL}/scan-url`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
