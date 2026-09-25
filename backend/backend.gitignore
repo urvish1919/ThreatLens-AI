@@ -1,9 +1,0 @@
-.env
-venv/
-__pycache__/
-uploads/
-mail_attachments/
-credentials.json
-token.json
-shared_events.db
-bridge_state.txt
